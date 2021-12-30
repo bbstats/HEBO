@@ -1,0 +1,39 @@
+antigens:
+  - 4ZFO_F
+  - 1ADQ_A
+  - 5EZO_A
+  - 4OII_A
+  - 4OKV_E
+  - 1NCA_N
+  - 5CZV_A
+  - 5JW4_A
+methods:
+  BO_transformed_overlap:
+    kernel_name: transformed_overlap
+    label: BO transformed overlap kernel
+    line_color: green
+  BO_ssk:
+    kernel_name: ssk
+    label: BO ssk kernel
+    line_color: blue
+  GA:
+    kernel_name: GA
+    label: Genetic Algorithm
+    line_color: red
+  RS:
+    kernel_name: RS
+    label: Random Search
+    line_color: orange
+  RealData:
+    label: Real Data
+    line_color: gray
+num_std: 1
+random_seeds:
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+results_dir: /home/asif/workspace/antigenbinding/results
+save_dir: /home/asif
+sequence_length: 11

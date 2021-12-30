@@ -1,0 +1,20 @@
+acq: ei
+ard: True
+n_init: 20
+max_iters: 300
+min_cuda: 20
+device: 'cpu'
+seq_len: 11
+normalise: True
+batch_size: 1
+save_path: '/home/asif/workspace/antigenbinding/results/BObert'
+kernel_type: 'rbf-pca-BERT'
+noise_variance: 1e-6
+resume: ???
+BERT: ???
+
+bbox:
+  tool: Absolut
+  path: '/home/asif/workspace/antigenbinding/Absolut/'
+  process: 20
+  startTask: 60

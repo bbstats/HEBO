@@ -1,0 +1,35 @@
+AbsolutPath: /home/asif/workspace/antigenbinding/Absolut
+antigens:
+- 4ZFO_F
+- 1ADQ_A
+- 5EZO_A
+- 4OII_A
+- 4OKV_E
+- 1NCA_N
+- 5CZV_A
+- 5JW4_A
+methods:
+  BO_transformed_overlap:
+    kernel: transformed_overlap
+  BO_ssk:
+    kernel: ssk
+  GA:
+    kernel: GA
+  RS:
+    kernel: RS
+  RealData:
+    kernel: RealData
+random_seeds:
+- 42
+- 43
+- 44
+- 45
+- 46
+results_dir: /home/asif/workspace/antigenbinding/results
+save_dir: /home/asif/CDRH3_binding_visualisation
+sequence_length: 11
+visualisation_timesteps:
+- 50
+- 100
+- 200
+

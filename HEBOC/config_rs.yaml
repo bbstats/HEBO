@@ -1,0 +1,24 @@
+absolut_config:
+  path: /home/rladmin/antigenbinding/AbsolutDebug
+  process: 15
+  startTask: 45
+antigens:
+- 4ZFO_F
+- 1ADQ_A
+- 5EZO_A
+- 4OII_A
+- 4OKV_E
+- 1NCA_N
+- 5CZV_A
+- 5JW4_A
+random_seeds:
+- 42
+- 43
+- 44
+experiment_config:
+  elite_ratio: 0.0
+save_dir: /home/rladmin/antigenbinding/results/RS_test/
+sequence_length: 11
+max_num_iterations: 5
+batch_size: 40
+environment_name: batch_optim

@@ -1,0 +1,2 @@
+#Antigen UNKNOWN?
+ID_slide_Variant	CDR3	Best	Slide	Energy	Structure	interactionCode	AGboundPositions	hotspot_ID	seqAGEpitope	seqABParatope	motifAGEpitope	motifABParatope	agregatesAGEpitope	agregatesABParatope	chemicalAGEpitope	chemicalABParatope	motifsSizeGapsLigand	motifsSizeGapsRec	interMaskAGEpitope	interMaskABParatope	segmentedAGEpitope	segmentedABParatope	AAcompoFullSlice	AAcompoFullCDR	sizeCDR3

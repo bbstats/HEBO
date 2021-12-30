@@ -1,0 +1,21 @@
+absolut_config:
+  path: /home/rladmin/antigenbinding/Absolut3
+  process: 15
+  startTask: 15
+antigens:
+- 4ZFO_F
+- 1ADQ_A
+- 5EZO_A
+- 4OII_A
+- 4OKV_E
+- 1NCA_N
+- 5CZV_A
+- 5JW4_A
+random_seeds:
+- 42
+- 43
+- 44
+rs_num_iter: 200
+rs_batch_size: 1
+save_dir: /home/rladmin/antigenbinding/results/RS/
+sequence_length: 11
