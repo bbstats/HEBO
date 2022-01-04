@@ -28,7 +28,8 @@ def sklearn_tuner(
         cv       = None,
         max_iter = 16, 
         report   = False,
-        hebo_cfg = None, 
+        hebo_cfg = None,
+        fit_params = None 
         ) -> (dict, pd.DataFrame):
     """Tuning sklearn estimator
 
@@ -73,7 +74,7 @@ def sklearn_tuner(
     for i in range(max_iter):
         rec     = opt.suggest()
         model   = model_class(**rec.iloc[0].to_dict())
-        pred    = cross_val_predict(model, X, y, cv = cv)
+        pred    = cross_val_predict(model, X, y, cv = cv, fit_params=fit_params)
         score_v = metric(y, pred)
         sign    = -1. if greater_is_better else 1.0
         opt.observe(rec, np.array([sign * score_v]))
